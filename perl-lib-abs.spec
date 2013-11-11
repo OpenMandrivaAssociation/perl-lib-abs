@@ -1,15 +1,15 @@
 %define upstream_name    lib-abs
-%define upstream_version 0.92
+%define upstream_version 0.93
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Get pathname of current working directory
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/lib/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/lib/lib-abs-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Cwd)
@@ -70,3 +70,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Jul 23 2009 cpan2dist 0.90-1mdv
 - initial mdv release, generated with cpan2dist
+
