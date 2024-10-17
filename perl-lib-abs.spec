@@ -8,7 +8,7 @@ Release:	3
 Summary:	Get pathname of current working directory
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/lib/lib-abs-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
